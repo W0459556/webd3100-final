@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(45deg, #ebe772, #dca575);
+    background-size: 400% 400%;
+    overflow-x: hidden;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Wendy One", sans-serif !important;
+}
+
+.header-text {
+    color: #57490E
+}
+
+.transparent-white, .transparent-white:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    outline: none !important;
+    border: none !important;
+}
+
+.transparent-btn {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.transparent-btn:hover {
+    background-color: rgba(255, 255, 255, 0.36);
+    
+}
+
+.custom-purple{
+    background-color: #4A508E;
+}
+
+.custom-blue{
+    background-color: #479DC0;
+}
+
+.custom-yellow{
+    background-color: #D99449;
+}
+
+.custom-orange{
+    background-color: #BE6A3B;
+}
+
+.custom-red{
+    background-color: #BF393E;
+}
+
+.rounded-6{
+    border-radius: 100px;
+}
